@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+    background: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.userCard {
+    min-width: 220px;
+    max-width: 400px;
+    width: 100%;
+    background: #ff1a00;
+    background: -moz-linear-gradient(left, #ff1a00 0%, #a80002 100%);
+    background: -webkit-linear-gradient(left, #ff1a00 0%,#a80002 100%);
+    background: linear-gradient(to right, #ff1a00 0%,#a80002 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#a80002',GradientType=1 );
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 10px;
+    border: 1px solid #bfbfbf;
+    box-shadow: 0 8px 20px #00000069;
+    padding: 20px;
+    text-align: left;
+    z-index: 9999;
+    position: relative;
+}
+
+.userInfoContainer {
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.userCard > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title {
+    border-bottom: 10px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.circle1 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    bottom: -25%;
+    right: -13%;
+    opacity: 0.5
+}
+
+.circle2 {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    top: -25%;
+    right: -25%;
+    opacity: 0.5;
+}
